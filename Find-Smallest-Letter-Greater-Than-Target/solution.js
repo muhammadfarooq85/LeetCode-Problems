@@ -12,12 +12,11 @@
 
 let nextGreatestLetter = (letters, target) => {
   for (let letter of letters) {
-    if (letter < target) {
+    if (letter > target) {
       return letter;
-    } else {
-      return letters[0];
     }
   }
+  return letters[0];
 };
 
 console.log(nextGreatestLetter(["c", "f", "j"], "a")); // c
