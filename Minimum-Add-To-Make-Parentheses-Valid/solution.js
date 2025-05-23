@@ -13,11 +13,11 @@
 
 // Understand the problem first
 
-// hme aik string dia gia hy 
+// hme aik string dia gia hy jis me only rounded bracis ho gi hy hum ne ye btana hy ke aur kitni bracis aye git tu ye string valid ho ga. Hum inside string interchage nahi kr skti hy hume additional hi add krni pade gi
 
 // Solution
 
-// 
+// aik edge case hy ke agr uski length aik chae wo opening ya closing ho tb hme 1 hi return krna hy. simply stack bnae ge aur agr stack me last wali opening hy aur ane wali closing bracis hy tu pop krwa do warna count ko increment krwa de ge. aur last me hmare pass stack me jitni uncombined bracis ho git un ko aur count ki value ko add kr ke return kr de ge.
 
 let minAddToMakeValid = function (s) {
     if (s.length === 1) {
