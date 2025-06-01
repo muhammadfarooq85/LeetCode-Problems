@@ -1,4 +1,4 @@
-// 867. Transpose of Matrix
+// 867. Transpose Matrix
 
 // Problem statement
 
